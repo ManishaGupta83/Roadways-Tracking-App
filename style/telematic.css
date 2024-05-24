@@ -71,16 +71,35 @@ i {
 }
 
 .logo svg {
+  
   width: 40px;
   height: 40px;
 }
 
 .logo-name {
+  display: flex;
+  flex-direction: column;
   margin-left: 10px;
 
-  font-size: 1.8rem;
+ 
+}
+.log1{
+  margin-top: 10px;
+  font-size: 1.7rem;
   color: #fff;
+
+  
   font-weight: 500;
+ 
+}
+.log{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: -10px;
+  font-style: oblique;
+  margin-bottom: 0;
+color: #e9b913;
+  font-size: 13px;
+
 }
 
 @keyframes bounce {
@@ -150,7 +169,7 @@ i {
   color: black !important;
 }
 
-.scrolled .navbar-brand .logo-name {
+.scrolled .navbar-brand .logo-name .log1 {
   color: black;
 }
 
@@ -817,9 +836,14 @@ i {
     margin-left: 0;
   }
 
-  .logo-name {
-    font-size: 1.5rem;
+  .log1 {
+    font-size: 1.2rem;
   }
+  .log {
+    
+    
+    font-size: 9px;
+}
 
   .navbar-toggler {
     padding: 3px 6px;
