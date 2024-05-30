@@ -241,7 +241,7 @@ color: #e9b913;
  
 }
 .about-content h2{
-  font-size: 28px;
+  font-size: 30px;
   margin-bottom: 5px;
   color: #e9b913;
   white-space: nowrap;
@@ -280,7 +280,8 @@ img{
 
 }
 .platform h2{
-  font-size: 23px;
+  margin-top: 10px;
+  font-size: 30px;
   font-weight: 600;
   color: #e9b913;
 
@@ -317,7 +318,7 @@ object-fit: cover;
 padding: 20px;
 }
 .card-content h1{
-font-size: 22px;
+font-size: 20px;
 margin-bottom: 10px;
 color: #333;
 
@@ -329,7 +330,7 @@ margin-bottom: 0px;
 
 ul {
   list-style-type:circle; /* Using arrow as list-style type */
-  padding-left: 20px;
+  padding-left: 15px;
 }
 
 .features li {
@@ -482,7 +483,7 @@ input:focus, textarea:focus{
 }
 
 .title{
-  font-size: 23px;
+  font-size: 2.5rem;
   font-weight: 600;
   color: #e9b913;
   margin: 2rem 0rem;
