@@ -71,35 +71,16 @@ i {
 }
 
 .logo svg {
-  
   width: 40px;
   height: 40px;
 }
 
 .logo-name {
-  display: flex;
-  flex-direction: column;
   margin-left: 10px;
 
- 
-}
-.log1{
-  margin-top: 10px;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   color: #fff;
-
-  
   font-weight: 500;
- 
-}
-.log{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-top: -10px;
-  font-style: oblique;
-  margin-bottom: 0;
-color: #e9b913;
-  font-size: 13px;
-
 }
 
 @keyframes bounce {
@@ -169,7 +150,7 @@ color: #e9b913;
   color: black !important;
 }
 
-.scrolled .navbar-brand .logo-name .log1 {
+.scrolled .navbar-brand .logo-name {
   color: black;
 }
 
@@ -214,7 +195,7 @@ color: #e9b913;
 }
 .platform h2{
   color: #e9b913;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 600;
 }
 
@@ -280,7 +261,7 @@ color: #e9b913;
  
 }
 .about-content h2{
-  font-size: 30px;
+  font-size: 28px;
   margin-bottom: 20px;
   color: #e9b913;
   white-space: nowrap;
@@ -417,8 +398,6 @@ img{
 }
 
 .title {
-  color: #e9b913;
-  font-weight: 600;
   font-size: 2.5rem;
   margin: 2rem 0rem;
 }
@@ -518,6 +497,12 @@ textarea:focus {
   align-items: center;
 }
 
+.title {
+  font-size: 28px;
+  margin: 2rem 0rem;
+  color: #e9b913;
+  font-weight: 600;
+}
 .faq {
   max-width: 700px;
   margin-top: 2rem;
@@ -832,14 +817,9 @@ i {
     margin-left: 0;
   }
 
-  .log1 {
-    font-size: 1.2rem;
+  .logo-name {
+    font-size: 1.5rem;
   }
-  .log {
-    
-    
-    font-size: 9px;
-}
 
   .navbar-toggler {
     padding: 3px 6px;
