@@ -75,36 +75,18 @@ i {
 }
 
 .logo svg {
-  
   width: 40px;
   height: 40px;
 }
 
 .logo-name {
-  display: flex;
-  flex-direction: column;
   margin-left: 10px;
 
- 
-}
-.log1{
-  margin-top: 10px;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   color: #fff;
-
-  
   font-weight: 500;
- 
 }
-.log{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-top: -10px;
-  font-style: oblique;
-  margin-bottom: 0;
-color: #e9b913;
-  font-size: 13px;
 
-}
 @keyframes bounce {
   0% {
     transform: translateY(0);
@@ -177,7 +159,7 @@ color: #e9b913;
 }
 
 
-.scrolled .navbar-brand .logo-name .log1{
+.scrolled .navbar-brand .logo-name {
   color: black;
 }
 
@@ -347,7 +329,6 @@ input:focus, textarea:focus{
 }
 .about-content h2{
   font-size: 38px;
-  font-weight: 600;
   margin-bottom: 20px;
   color: #e9b913;
   white-space: nowrap;
@@ -378,11 +359,11 @@ img{
   .platform h2{
     color: #e9b913;
     font-weight: 600;
-    font-size: 30px;
+    
   }
  
   .platform p{
-    margin: 5px 8px;
+    margin: 10px 8px;
     font-size: 20px;
     padding: 5px;
     color: #666;
@@ -501,31 +482,6 @@ img{
 
 
 
-.fuelreport {
-  background-color: #fff;
-  width: 65vw;
-  margin: auto;
-  margin-top: 40px;
-  box-shadow: 4px 4px 4px 4px rgba(207, 205, 205, 0.8);
-  transition: box-shadow 0.3s ease; /* Added transition for smooth hover effect */
-}
-.fuelreport:hover{
-  box-shadow: 0 10px 20px rgba(114, 58, 187, 0.774);
-}
-.fuelreport h2{
-  font-size: 23px;
-  color: #e9b913;
-}
-.fuelreport p{
-  font-size: 17px;
-  color: #666;  
-}
-.fuelreport img{
-height: 230px;
-width: 300px;
-
-}
-
 
 
 
@@ -575,32 +531,9 @@ width: 300px;
   
   .scrolled .dropdown-item {
     color: #1c1c1c;
-  }
-  .fuelreport {
-    background-color: #fff;
-    width: 80vw;
-    margin: auto;
-    margin-top: 40px;
-    box-shadow: 4px 4px 4px 4px rgba(207, 205, 205, 0.8);
-    transition: box-shadow 0.3s ease; /* Added transition for smooth hover effect */
-   
-  }
-  .fuelreport:hover{
-    box-shadow: 0 10px 20px rgba(114, 58, 187, 0.774);
-  }
-  .fuelreport h2{
-    font-size: 23px;
-    color: #333;
-  }
-  .fuelreport p{
-    font-size: 17px;
-    color: #333;  
-  }
-  .fuelreport img{
-  height: 250px;
-  border:2px solid #e9b913;
-  margin-left:7rem;
-  width: 350px;
+  
+  
+  
   }
 }
 
@@ -739,19 +672,6 @@ width: 300px;
     height: 140px;
     width: auto;
    }
-   .fuelreport img{
-    height: 250px;
-    border:2px solid #e9b913;
-    margin:auto;
-    width: 300px;
-    }
-    .single-services{
-      height: 270px;
-    }
-    .single-services p {
-    font-size: 14px;
-      
-    }
 }
 
 
@@ -766,14 +686,10 @@ width: 300px;
     margin-left: 0;
   }
 
-  .log1 {
-    font-size: 1.2rem;
+  .logo-name {
+    font-size: 1.5rem;
   }
-  .log {
-    
-    
-    font-size: 9px;
-}
+
   .navbar-toggler {
 
     padding: 3px 6px;
@@ -789,10 +705,7 @@ width: 300px;
     height: 40vh;
 
   }
-  .card-content h1{
-    font-size: 22px;
-    margin-bottom: 2px;
-  }
+
   .carousel-caption {
     width: 100%;
     padding: 13px;
@@ -871,22 +784,19 @@ width: 300px;
     color: #e9b913;
     font-weight: 600;
     margin: 10px 8px;
-    font-size: 22px;
+    font-size: 23px;
   }
   .platform p{
     margin: 10px 8px;
-    font-size: 14px;
-    padding: 0;
+    font-size: 20px;
+    padding: 5px;
     color: #666;
-    line-height: 1.3;
   }
-
   .card{
-    width: 80%;
+    width: 90%;
   }
   .card-container{
     flex-wrap: wrap;
-    margin: 10px;
   }
   .about-content h2{
     font-size: 23px;
@@ -903,22 +813,10 @@ width: 300px;
     height: 100px;
     width: auto;
    }
-
-
-
-
-
    .logos::before{
     width: 130px;
    }
    .logos::after{
     width: 130px;
    }
-
-   .fuelreport img{
-    height: 200px;
-    border:2px solid #e9b913;
-    margin-left:1rem;
-    width: 200px;
-    }
 }
