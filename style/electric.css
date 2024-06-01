@@ -75,35 +75,16 @@ i {
 }
 
 .logo svg {
-  
   width: 40px;
   height: 40px;
 }
 
 .logo-name {
-  display: flex;
-  flex-direction: column;
   margin-left: 10px;
 
- 
-}
-.log1{
-  margin-top: 10px;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   color: #fff;
-
-  
   font-weight: 500;
- 
-}
-.log{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-top: -10px;
-  font-style: oblique;
-  margin-bottom: 0;
-color: #e9b913;
-  font-size: 13px;
-
 }
 
 @keyframes bounce {
@@ -170,7 +151,7 @@ color: #e9b913;
   color: black !important;
 }
 
-.scrolled .navbar-brand .logo-name .log1{
+.scrolled .navbar-brand .logo-name {
   color: black;
 }
 
@@ -221,7 +202,8 @@ color: #e9b913;
     box-shadow: 0 10px 20px rgba(114, 58, 187, 0.774);
   }
   .fuelreport h1{
-    font-size: 24px;
+    font-size: 23px;
+    
     color: #e9b913;
   }
   .fuelreport p{
@@ -740,16 +722,10 @@ i {
     margin-left: 0;
   }
 
-  
-
-  .log1 {
-    font-size: 1.2rem;
+  .logo-name {
+    font-size: 1.5rem;
   }
-  .log {
-    
-    
-    font-size: 9px;
-}
+
   .navbar-toggler {
     padding: 3px 6px;
   }

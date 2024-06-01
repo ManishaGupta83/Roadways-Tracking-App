@@ -76,35 +76,16 @@ i {
 }
 
 .logo svg {
-  
   width: 40px;
   height: 40px;
 }
 
 .logo-name {
-  display: flex;
-  flex-direction: column;
   margin-left: 10px;
 
- 
-}
-.log1{
-  margin-top: 10px;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   color: #fff;
-
-  
   font-weight: 500;
- 
-}
-.log{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-top: -10px;
-  font-style: oblique;
-  margin-bottom: 0;
-color: #e9b913;
-  font-size: 13px;
-
 }
 
 @keyframes bounce {
@@ -179,7 +160,7 @@ color: #e9b913;
 }
 
 
-.scrolled .navbar-brand .logo-name .log1{
+.scrolled .navbar-brand .logo-name {
   color: black;
 }
 
@@ -312,6 +293,10 @@ i{
 }
 .image-area img{
   width: 80%;
+}
+/* form styling for response */
+.form{
+  display: block;
 }
 .form-area{
   display: flex;
@@ -600,19 +585,9 @@ i{
     margin-left: 0;
   }
 
-  .logo svg {
-    height: 2.3rem;
-    margin-left: 0;
+  .logo-name {
+    font-size: 1.5rem;
   }
-
-  .log1 {
-    font-size: 1.2rem;
-  }
-  .log {
-    
-    
-    font-size: 9px;
-}
 
   .navbar-toggler {
 
