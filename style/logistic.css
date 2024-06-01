@@ -78,35 +78,16 @@ i {
 }
 
 .logo svg {
-  
   width: 40px;
   height: 40px;
 }
 
 .logo-name {
-  display: flex;
-  flex-direction: column;
   margin-left: 10px;
 
- 
-}
-.log1{
-  margin-top: 10px;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   color: #fff;
-
-  
   font-weight: 500;
- 
-}
-.log{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-top: -10px;
-  font-style: oblique;
-  margin-bottom: 0;
-color: #e9b913;
-  font-size: 13px;
-
 }
 
 @keyframes bounce {
@@ -181,7 +162,7 @@ color: #e9b913;
 }
 
 
-.scrolled .navbar-brand .logo-name .log1{
+.scrolled .navbar-brand .logo-name {
   color: black;
 }
 
@@ -423,13 +404,6 @@ img{
 .containerbox h3{
   color: #e9b913;
   font-size: 23px;
-}
-.cardclass h2{
-  text-align: center;
-  margin-top: 28px;
-  font-size: 30px;
-  font-weight: 600;
-  color: #e9b913;
 }
 
 .about{
@@ -947,14 +921,9 @@ img{
     margin-left: 0;
   }
 
-  .log1 {
-    font-size: 1.2rem;
+  .logo-name {
+    font-size: 1.5rem;
   }
-  .log {
-    
-    
-    font-size: 9px;
-}
 
   .navbar-toggler {
 
